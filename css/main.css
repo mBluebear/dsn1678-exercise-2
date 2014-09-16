@@ -94,6 +94,30 @@ body {
   background-color: rgba(127, 219, 255, 0.6);
 }
 
+
+.chart__item,
+{
+    transition: all 250ms linear;
+}
+
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active {
+    background-color: rgba(204, 204, 204, .5);
+}
+
+.chart_bar,
+{
+
+    transition: all 250ms linear;
+}
+
+.chart__item:hover .chart__bar
+{
+    background-color: rgba(127, 219, 255, 1);
+
+}
+
 .chart__count {
   display: inline-block;
   left: -2.3em;
